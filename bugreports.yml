@@ -1,1 +1,58 @@
+---
+- summary: |
+    Нет перехода на страницу оплаты при оформлении заказа
+  environment: |
+    Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
+    macOS Sonoma Версия 14.4.1 (23E224)
+  steps-to-reproduce: |
+    1.Открыть сайт магазина https://hexlet-products-store.vercel.app/
+    2.Добавить товар в корзину
+    3.Перейти в корзину
+    4.Нажать "Checkout" 
+  expected-result: |
+    Должен произойти редирект на страницу оформления и оплаты заказа
+  actual-result: |
+    Появляется окно с информацией об уже оплаченном и оформленном заказе
 
+- summary: |
+    В каталоге товаров не отображается рейтинг товара
+  environment: |
+    Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
+    macOS Sonoma Версия 14.4.1 (23E224)
+  steps-to-reproduce: |
+    1.Открыть сайт магазина https://hexlet-products-store.vercel.app/
+  expected-result: |
+    На странице, в списке товаров должен отображаться рейтинг товаров
+  actual-result: |
+    Рейтинг товаров не отображается
+
+- summary: |
+    Нет файлов Cookies для идентификации пользователей на сайте
+  environment: |
+    Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
+    macOS Sonoma Версия 14.4.1 (23E224)
+  steps-to-reproduce: |
+    1.Открыть сайт магазина https://hexlet-products-store.vercel.app/
+    2.Открыть инструмент разработчика DevTools
+    3.Открыть вкладку Application
+    4.Перейти в Cookies
+  expected-result: |
+    Пароли не должны храниться в файлах Cookies
+  actual-result: |
+    Нет Cookie файлов сайта, а так же нет формы регистрации и
+    идентификации пользователей на сайте
+
+- summary: |
+    Сайт плохо оптимизирован для скорости работы
+  environment: |
+    Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
+    macOS Sonoma Версия 14.4.1 (23E224)
+  steps-to-reproduce: |
+    1.Открыть сайт для проверки оптимизации сайта:
+    https://pagespeed.web.dev/
+    2.В форму для ввода URL вставить адрест магазина: https://hexlet-products-store.vercel.app/
+    3.Запустить проверку сайта
+  expected-result: |
+    Критических ошибок в работе сайта быть не должно
+  actual-result: |
+    Есть незначительные рекомендации по производительности сайта
