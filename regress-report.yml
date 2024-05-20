@@ -84,7 +84,7 @@ test-cases:
 
     - summary: |
         Пароли не должны хранится в cookies.
-      status: fail
+      status: pass
 
     - summary: |
         Проверка хранения товаров в корзине до завершения сессии в браузере
