@@ -68,7 +68,7 @@ test-cases:
 
     - summary: |
         Проверка доступности сайта на последних версиях браузеров
-      status: pass
+      status: fail
 
     - summary: |
         Проверка сайта на Single Page Application (SPA)
