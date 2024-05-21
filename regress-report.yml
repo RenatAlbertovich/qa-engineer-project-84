@@ -139,9 +139,7 @@ bugreports:
     steps-to-reproduce: >
       1.Зайти на сайт
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-
       2.Поставить галочку в списке фильтрации товаров на раздел "Apple"
-
       3.Ниже в списке убрать галочку с чекбокса "In Stock" или "В наличии"
     expected-result: |
       Должны отобразится товары не в наличии, категории Apple
