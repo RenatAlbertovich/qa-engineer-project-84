@@ -134,8 +134,7 @@ bugreports:
   - summary: |
       нет возможности фильтрации товаров по наличию 
     environment: |
-      Chrome, версия 125.0.6422.61 (Официальная сборка), (arm64). macOS
-      Sonoma Версия 14.4.1 (23E224)
+      Chrome версия 125.0.6422.61 (Официальная сборка), Sonoma Версия 14.4.1 (23E224), macOS
     steps-to-reproduce: |
       1.Зайти на сайт
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
@@ -150,7 +149,7 @@ bugreports:
   - summary: |
       Сайт не открывается
     environment: |
-      Safari 5.1 on Windows 11
+      Safari 5.1, Windows 11, macOS
     steps-to-reproduce: |
       1. Зайти на сайт эмулятора https://www.browserstack.com/
       2. Выбрать Windows 11
@@ -161,23 +160,9 @@ bugreports:
       Сайт не открывается
       
   - summary: |
-      Сайт не открывается
-    environment: |
-      Safari 5.1 on Windows 11
-    steps-to-reproduce: |
-      1. Зайти на сайт эмулятора https://www.browserstack.com/
-      2. Выбрать Windows 11
-      3. Выбрать браузер Safari 5.1
-    expected-result: |
-      Сайт должен открыться при выбранной конфигурации
-    actual-result: |
-      Сайт не открывается
-      
-  - summary: |
       Некорректная адаптация текста кнопок при открыти на мобильных устройствах
     environment: |
-      MacOS 14.4.1 (23E224), Chrome
-      Версия 125.0.6422.61 (Официальная сборка), (arm64)
+      Chrome версия 125.0.6422.61 (Официальная сборка), Sonoma Версия 14.4.1 (23E224), macOS
     steps-to-reproduce: |
       1. открыть инструмент разработчика DevTools
       2. Перейти в адаптацию мобильных устройств
