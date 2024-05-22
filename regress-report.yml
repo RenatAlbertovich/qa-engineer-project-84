@@ -133,45 +133,45 @@ test-cases:
 bugreports:
   - summary: |
       нет возможности фильтрации товаров по наличию 
-    environment: |
+  environment: |
       Chrome версия 125.0.6422.61 (Официальная сборка), Sonoma Версия 14.4.1 (23E224), macOS
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1.Зайти на сайт
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       2.Поставить галочку в списке фильтрации товаров на раздел "Apple" 
       3.Ниже в списке убрать галочку с чекбокса "In Stock" или "В наличии"
-    expected-result: |
+  expected-result: |
       Должны отобразится товары не в наличии, категории Apple
-    actual-result: |
+  actual-result: |
       Отображаются все товары, при выборе двух комбинаций чекбокса
       фильтрация товаров по брендам перестает работать.
       
   - summary: |
       Сайт не открывается
-    environment: |
+  environment: |
       Safari 5.1, Windows 11, macOS
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1. Зайти на сайт эмулятора https://www.browserstack.com/
       2. Выбрать Windows 11
       3. Выбрать браузер Safari 5.1
-    expected-result: |
+  expected-result: |
       Сайт должен открытся при выбранной конфигурации
-    actual-result: |
+  actual-result: |
       Сайт не открывается
       
   - summary: |
       Некорректная адаптация текста кнопок при открыти на мобильных устройствах
-    environment: |
+  environment: |
       Chrome версия 125.0.6422.61 (Официальная сборка), Sonoma Версия 14.4.1 (23E224), macOS
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1. открыть инструмент разработчика DevTools
       2. Перейти в адаптацию мобильных устройств
       3. Выбрать в качестве тестируемого разрешения Iphone SE (375x667)
       4. Добавить товар в корзину
       5. Перейти в корзину
-    expected-result: |
+  expected-result: |
       Все кнопки и текст должны быть на месте, текст не съезжает 
-    actual-result: |
+  actual-result: |
       Текст на на кнопке "checkout" или "оформить заказ" съехал, цена
       выходит за рамки
       Ошибка изображена на скриншоте Screenshots 1. png
