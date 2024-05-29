@@ -3,7 +3,7 @@
     Нет редиректа на страницу оплаты при оформлении заказа
   environment: |
     Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
-    macOS Sonoma Версия 14.4.1 (23E224)
+    macOS Sonoma Версия 14.4.1 (23E224)
   steps-to-reproduce: |
     1.Открыть сайт магазина https://hexlet-products-store.vercel.app/
     2.Добавить товар в корзину
@@ -18,7 +18,7 @@
     В каталоге товаров не отображается рейтинг товара
   environment: |
     Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
-    macOS Sonoma Версия 14.4.1 (23E224)
+    macOS Sonoma Версия 14.4.1 (23E224)
   steps-to-reproduce: |
     1.Открыть сайт магазина https://hexlet-products-store.vercel.app/
   expected-result: |
@@ -30,7 +30,7 @@
     Нет файлов Cookies для идентификации пользователей на сайте
   environment: |
     Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
-    macOS Sonoma Версия 14.4.1 (23E224)
+    macOS Sonoma Версия 14.4.1 (23E224)
   steps-to-reproduce: |
     1.Открыть сайт магазина https://hexlet-products-store.vercel.app/
     2.Открыть инструмент разработчика DevTools
@@ -46,7 +46,7 @@
     Сайт плохо оптимизирован для скорости работы
   environment: |
     Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
-    macOS Sonoma Версия 14.4.1 (23E224)
+    macOS Sonoma Версия 14.4.1 (23E224)
   steps-to-reproduce: |
     1.Открыть сайт для проверки оптимизации сайта:
     https://pagespeed.web.dev/
@@ -61,7 +61,7 @@
     Не отображается логотип при выборе языка
   environment: |
     Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
-    macOS Sonoma Версия 14.4.1 (23E224)
+    macOS Sonoma Версия 14.4.1 (23E224)
   steps-to-reproduce: |
     1.Открыть сайт магазина https://hexlet-products-store.vercel.app/
     2.Нажать на кнопку выбора языка в правом верхнем углу
@@ -75,7 +75,7 @@
     Не отображается уведомление об успешном добавлении товара в корзину а также при удалении товара из нее
   environment: |
     Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
-    macOS Sonoma Версия 14.4.1 (23E224)
+    macOS Sonoma Версия 14.4.1 (23E224)
   steps-to-reproduce: |
     1. Открыть сайт магазина https://hexlet-products-store.vercel.app/
     2. Добавить товар в корзину
@@ -90,7 +90,7 @@
     Нет возможности возврата на начальную (первую) страницу после выбора товаров
   environment: |
     Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
-    macOS Sonoma Версия 14.4.1 (23E224)
+    macOS Sonoma Версия 14.4.1 (23E224)
   steps-to-reproduce: |
     1.Открыть сайт магазина https://hexlet-products-store.vercel.app/
     2.перейти на следующую страницу товара
@@ -104,7 +104,7 @@
     Оформленные товары не удаляются из корзины
   environment: |
     Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
-    macOS Sonoma Версия 14.4.1 (23E224)
+    macOS Sonoma Версия 14.4.1 (23E224)
   steps-to-reproduce: |
     1.Открыть сайт: https://hexlet-products-store.vercel.app/
     2.Добавить любой товар в корзину
@@ -120,7 +120,7 @@
      рейтингу товара а так же по размеру скидки на товар
   environment: |
     Google Chrome Версия 124.0.6367.93 (Официальная сборка), (arm64)
-    macOS Sonoma Версия 14.4.1 (23E224)
+    macOS Sonoma Версия 14.4.1 (23E224)
   steps-to-reproduce: |
     1.Открыть сайт: https://hexlet-products-store.vercel.app/
   expected-result: |
