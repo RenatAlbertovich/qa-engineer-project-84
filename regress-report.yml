@@ -54,8 +54,8 @@ test-cases:
     status: pass
     
   - summary: |
-      Проверка адаптации сайта под мобильные устройства (Наличие мобильной
-      версии сайта)
+      Проверка адаптации сайта под мобильные устройства Наличие мобильной
+      версии сайта
     status: pass
     
   - summary: |
@@ -71,7 +71,7 @@ test-cases:
     status: fail
     
   - summary: |
-      Проверка сайта на Single Page Application (SPA)
+      Проверка сайта на Single Page Application SPA
     status: pass
     
   - summary: |
@@ -134,7 +134,7 @@ bugreports:
   - summary: |
       нет возможности фильтрации товаров по наличию 
     environment: |
-      Chrome версия 125.0.6422.61 (Официальная сборка), Sonoma Версия 14.4.1 (23E224), macOS
+      Chrome версия 125.0.6422.61 Официальная сборка, Sonoma Версия 14.4.1 23E224, macOS
     steps-to-reproduce: |
       1.Зайти на сайт
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
@@ -162,11 +162,11 @@ bugreports:
   - summary: |
       Некорректная адаптация текста кнопок при открыти на мобильных устройствах
     environment: |
-      Chrome версия 125.0.6422.61 (Официальная сборка), Sonoma Версия 14.4.1 (23E224), macOS
+      Chrome версия 125.0.6422.61 Официальная сборка, Sonoma Версия 14.4.1 23E224, macOS
     steps-to-reproduce: |
       1. открыть инструмент разработчика DevTools
       2. Перейти в адаптацию мобильных устройств
-      3. Выбрать в качестве тестируемого разрешения Iphone SE (375x667)
+      3. Выбрать в качестве тестируемого разрешения Iphone SE разрешение 375x667
       4. Добавить товар в корзину
       5. Перейти в корзину
     expected-result: |
