@@ -1,2 +1,2 @@
-Color: none
 Size 18
+Color: red
