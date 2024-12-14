@@ -1,2 +1,2 @@
-Size 10
+Size 18
 Color: red
