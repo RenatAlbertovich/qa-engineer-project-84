@@ -1,2 +1,2 @@
-Color: none
 Size 10
+Color: red
